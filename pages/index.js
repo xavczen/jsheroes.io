@@ -10,6 +10,7 @@ import Mission from '../app/components/mission';
 import Organizers from '../app/components/organizers/organizers';
 import Venue from '../app/components/venue';
 import ScrollBtn from '../app/components/scroll-btn';
+import ContactForm from '../app/components/contactForm';
 import store from '../app/data/index';
 import 'what-input';
 
@@ -33,6 +34,7 @@ const Home = () => {
         <Communities baseUrl={baseUrl} communities={store.data2019.communities} />
         <Organizers />
         <Venue />
+        <ContactForm />
         <ScrollBtn />
       </main>
     </Layout>
